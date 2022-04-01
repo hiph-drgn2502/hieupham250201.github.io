@@ -1,0 +1,1 @@
+<h1>BẢNG ĐIỀU KHIỂN CỦA NGƯỜI QUẢN TRỊ</h1>

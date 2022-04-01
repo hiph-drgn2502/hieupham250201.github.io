@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Site</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="./main.js"></script>
+
+</head>
+
+<body>
+    <section>
+        <header class="">
+            <div class="logo">
+                <a href="#">
+                    <img src="./public/img/logo/Minh_logo4.png" alt="logo">
+                </a>
+            </div>
+            <div class="main-menu">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand nav-logo" href="#"><img
+                                src="https://preview.colorlib.com/theme/furn/assets/img/logo/logo2.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item menu-item">
+                                    <a class="nav-content" aria-current="page" href="index.html">trang chủ</a>
+                                </li>
+                                <li class="nav-item dropdown menu-item">
+                                    <a class="nav-content" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        sản phẩm
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="product-page.html">Áo</a></li>
+                                        <li><a class="dropdown-item" href="product-page.html">Phụ kiện</a></li>
+                                        <li><a class="dropdown-item" href="product-page.html">Giày</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item menu-item">
+                                    <a class="nav-content" href="#">tin tức</a>
+                                </li>
+                                <li class="nav-item menu-item">
+                                    <a class="nav-content" href="#" tabindex="-1" aria-disabled="true">liên
+                                        hệ</a>
+                                </li>
+                            </ul>
+                            <div class="search-cart d-flex">
+                                <form class="form-search">
+                                    <input class="form-control-search form-control me-2" type="search"
+                                        placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-warning btn-submit" type="submit"><i
+                                            class="fas fa-search"></i></button>
+                                </form>
+                                <div class="cart">
+                                    <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/card.svg"
+                                        alt="">
+                                    &nbsp;
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+    <section>
+        <div class="page-notification">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item">
+                                    <a href="index.html">Trang chủ</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="product-page.html">Sản phẩm</a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-8 col-md-10">
+                    <div class="section-title">
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="top-center"
+                            data-aos-once="true" class="mb-60">
+                            <h2>
+                                TẤT CẢ SẢN PHẨM
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-4">
+                    <div data-aos="fade-up" data-aos-once="true" class="category-list">
+                        <div class="cat-1 cat-item">
+                            <a href="#">Thời Trang Nam</a>
+                        </div>
+                        <div class="cat-2 cat-item">
+                            <a href="#">Thời Trang Nữ</a>
+                        </div>
+                        <div class="cat-3 cat-item">
+                            <a href="#">Phụ Kiện</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-8">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival1.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Aó Khoác </a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival2.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Khăn Len</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 center-product">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival3.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Áo Sơ Mi 1</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 center-product">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival4.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Áo Sơ Mi 2</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk
+                                        of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 center-product">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival5.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Áo Thun</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 center-product">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival6.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Kính Thời Trang</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 center-product">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival7.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Áo Xấu</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 center-product">
+                            <div data-aos="fade-up" data-aos-once="true" class="card text-center" style="width: 18rem;">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/gallery/arrival8.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a class="card-title">Giày Khuyết</a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-card">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <section class="collection">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9">
+                    <div class="single-question text-center">
+                        <h2 data-aos="fade-up" data-aos-duration="1300" data-aos-easing="ease-in-out"
+                            data-aos-once="true">
+                            bộ sưu tập của chúng tôi
+                        </h2>
+                        <a class="btn btn-banner" href="#"><span>XEM NGAY</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="categories gray-bg">
+                <div class="container">
+                    <div class="row">
+                        <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="single-cat">
+                                <div class="cat-icon">
+                                    <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/icon/services1.svg"
+                                        alt="iconcat1">
+                                </div>
+                                <div class="cat-cap">
+                                    <h5>Giao hàng miễn phí</h5>
+                                    <p>Giao hàng miễn phí toàn quốc</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="cat-icon">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/icon/services2.svg"
+                                    alt="iconcat1">
+                            </div>
+                            <div class="cat-cap">
+                                <h5>Giao hàng miễn phí</h5>
+                                <p>Giao hàng miễn phí toàn quốc</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="cat-icon">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/icon/services3.svg"
+                                    alt="iconcat1">
+                            </div>
+                            <div class="cat-cap">
+                                <h5>Giao hàng miễn phí</h5>
+                                <p>Giao hàng miễn phí toàn quốc</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="cat-icon">
+                                <img src="https://preview.colorlib.com/theme/shionhouse/assets/img/icon/services4.svg"
+                                    alt="iconcat1">
+                            </div>
+                            <div class="cat-cap">
+                                <h5>Giao hàng miễn phí</h5>
+                                <p>Giao hàng miễn phí toàn quốc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="footer footer-area footer-padding">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-4 col-lg-3 col-md-8 col-sm-8">
+                            <div class="single-footer ">
+                                <div class="footer-logo">
+                                    <a href="#">
+                                        <img src="./public/img/logo/food.jpg"
+                                            alt="logo-footer">
+                                    </a>
+                                </div>
+                                <div class="footer-title">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempore
+                                        repudiandae voluptatum facere dolor aliquid, ducimus nisi aspernatur in. Non.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4"">
+                            <div class=" single-footer">
+                            <div class="footer-title">
+                                <h4>Danh mục</h4>
+                                <div class="pad-left">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sản phẩm</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tin tức</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4"">
+                            <div class=" single-footer">
+                        <div class="footer-title">
+                            <h4>Chính sách</h4>
+                            <div class="pad-left">
+                                <ul>
+                                    <li>
+                                        <a href="#">Chính sách giao hàng</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chính sách hoàn tiền</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chính sách đổi trả</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4"">
+                            <div class=" single-footer">
+                    <div class="footer-title">
+                        <h4>Liên hệ</h4>
+                        <div class="pad-left">
+                            <ul>
+                                <li>
+                                    <a href="#">(+84) 0386256124</a>
+                                </li>
+                                <li>
+                                    <a href="#">minhdao.161120@gmail.com</a>
+                                </li>
+                                <li>
+                                    <a href="#">CĐ Công Thương</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="d-flex align-items-center">
+                        <div class="col-xl-12">
+                            <div class="footer-copy text-center">
+                                <p>
+                                    Copyright © 2021 Minh Van</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div>
+        <a onclick="topFunction()" id="back-top" title="Go to Top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1300,
+        });
+    </script>
+</body>
+
+</html>
